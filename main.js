@@ -35,21 +35,21 @@ function triangulo(){
         return;
         }
 
-    // Triangulo: Equilátero
+    // Triângulo: Equilátero
     if(triA==triB && triB==triC){
         var triangulo = "Equilátero"
         outInfo.textContent=`Lados podem forma um triângulo.`;
         outTriangulo.textContent=`Tipo: ${triangulo}`
     }
 
-    // Triangulo: isóceles
+    // Triângulo: isóceles
     if(triA==triB || triA==triC || triB==triC){
         var triangulo = "Isóceles"
         outInfo.textContent=`Lados podem forma um triângulo.`;
         outTriangulo.textContent=`Tipo: ${triangulo}`
     } 
     
-    //Se não é as outras então é um triangulo: "Escaleno";
+    //Se não é as outras "então" é um Triângulo do tipo "Escaleno";
     else {
         var triangulo = "Escaleno"
         outInfo.textContent=`Lados podem forma um triângulo.`;
